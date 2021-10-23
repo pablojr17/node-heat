@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { AuthenticateUserService } from "../services/AuthenticateUserService";
 
-class AuthenticatedUserController {
+class AuthenticateUserController {
   async handle(request: Request, response: Response) {
     const {code} = request.body;
 
@@ -17,6 +17,6 @@ class AuthenticatedUserController {
   }
 } 
 
-export { AuthenticatedUserController };
+export { AuthenticateUserController };
 
 
