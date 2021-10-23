@@ -71,4 +71,5 @@ class AuthenticateUserService {
     return { token, user };
   }
 }
+
 export { AuthenticateUserService };
